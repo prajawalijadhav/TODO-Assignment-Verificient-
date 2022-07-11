@@ -25,7 +25,7 @@ def methread():
             message=" There is some important work in your TODO.",
             timeout=10
         )
-        time.sleep(60)
+        time.sleep(60*30)
 
 t=Thread(target=methread)
 t.start()
